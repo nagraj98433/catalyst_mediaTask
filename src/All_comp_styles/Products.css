@@ -1,0 +1,189 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: 200px 1043px;
+  /* background-color: #2196f3; */
+  padding: 10px;
+}
+
+.grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border: none;
+  /* padding: 20px; */
+  font-size: 30px;
+  text-align: center;
+}
+.product_container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196f3; */
+}
+.product_container .grid-item {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  border: none;
+  padding: 0 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item img {
+  max-width: 300px;
+}
+.product_name {
+  font-family: Noto Serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #131414;
+}
+.product_type_Container {
+  text-align: left;
+  line-height: 0;
+}
+.product_clr {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4f4733;
+}
+.product_type {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4640328c;
+}
+.product_price {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5a112b;
+  line-height: 45px;
+}
+.clicking {
+  cursor: pointer;
+}
+/* product overlay effects start */
+
+.hover_container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.hover_container:hover .overlay {
+  opacity: 0.8;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* product overlay effects end */
+
+/* sidebar css start */
+.flex_container_sidebar {
+  display: flex;
+  justify-content: center;
+}
+.flex_container_sidebar_content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 15px;
+}
+.sidebar_container_main {
+  margin-top: 120px;
+}
+.header_sidebar {
+  font-family: Noto Serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #131414;
+  margin: 0 0 20px 30px;
+}
+.remove_btn button {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  background-color: #3f3737;
+  cursor: pointer;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  background-color: #c1c5c4 !important;
+}
+
+.css-1hskriy {
+  width: 100px !important;
+}
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 0 !important;
+}
+.MuiTypography-root::after,
+.cotton_heading_click::after {
+  content: "\f00d"; /* Replace with the Unicode value of your icon */
+  font-family: "Font Awesome 5 Free"; /* Make sure to specify the correct font-family */
+  font-weight: 900;
+}
+.MuiTypography-root::after,
+.cotton_heading_click::after {
+  margin-left: 5px !important;
+}
+.cotton_heading_click {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  width: 100px;
+  background-color: #dcd8d8;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.clicked {
+  display: none;
+}

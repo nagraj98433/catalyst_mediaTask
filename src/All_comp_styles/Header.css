@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap");
+
+.Header_main_flex_container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+  justify-content: space-between;
+  min-width: 1263px;
+}
+.Header_fixed {
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+}
+
+.Header_main_flex_container > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 6px 10px;
+  font-size: 30px;
+}
+
+.right {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bfbebe;
+}
+.fit {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
+.flex_container_right {
+  justify-content: space-between;
+}
+.flex_container_right .right {
+  margin: 0 14px;
+}
+.all_products {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  transition: color 0.3s ease;
+  color: #ffffff;
+}
+.featured_products {
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+.cart_icon {
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.cart_count {
+  font-family: Nunito Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 0 !important;
+  transition: color 0.3s ease;
+}
+.background_banner_img {
+  background-image: url(../assets/img/Masthead.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 575px;
+}

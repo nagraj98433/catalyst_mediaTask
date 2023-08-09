@@ -1,0 +1,44 @@
+.Filter_header {
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  cursor: pointer;
+  text-align: left;
+  color: #000000;
+  margin-left: 25px;
+}
+.product_list {
+  /* font-family: Nunito Sans; */
+  font-size: 16px;
+  /* font-weight: 400; */
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  padding-left: 22px;
+  margin-bottom: 0;
+}
+.fetched_data_view_contaier {
+  /* font-family: Nunito Sans; */
+  font-size: 14px;
+  /* font-weight: 400; */
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+  padding-left: 22px;
+}
+
+.fetched_data_view_contaier li {
+  font-weight: 200;
+  cursor: pointer;
+}
+.product_List_container {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}

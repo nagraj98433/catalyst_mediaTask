@@ -1,0 +1,54 @@
+.footer_section {
+  background-color: #1e1e1e;
+  height: 305px;
+}
+
+.grid-containerFooter {
+  display: grid;
+  grid-template-columns: 250px auto 380px;
+  padding: 10px;
+}
+.grid-itemFooter {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.F-style {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.L_content_container {
+  margin-left: 42px;
+  margin-top: 20px;
+}
+.middle_content_section {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  margin-top: 53px;
+}
+.All_cards_img {
+  text-align: left;
+}
+.R_content_section {
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: white;
+  margin-top: 53px;
+}
+.FLogo_section {
+  text-align: right;
+}
